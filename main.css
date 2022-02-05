@@ -48,8 +48,15 @@ div {
     width: 100%;
 }
 .add-flower-button {
-    background-color: rgba(51, 51, 51,0.6);
-    color: white
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 }
 .add-flower-button:hover,
 .add-flower-button:focus {
