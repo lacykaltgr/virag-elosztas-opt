@@ -47,7 +47,7 @@ div {
     height: 30px;
     width: 100%;
 }
-.add-flower-button {
+#add-flower-button {
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
@@ -58,8 +58,8 @@ div {
   font-size: 16px;
 }
 }
-.add-flower-button:hover,
-.add-flower-button:focus {
+#add-flower-button:hover,
+#add-flower-button:focus {
     background-color: #333 ;
 }
 form {
