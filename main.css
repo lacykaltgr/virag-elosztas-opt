@@ -1,0 +1,115 @@
+html {
+    height: 100%;
+}
+body {
+      width: 100%;
+      color: #fff;
+      overflow-x: hidden;
+      background-repeat:no-repeat;
+        background-attachment: fixed;
+      background-image: linear-gradient(#f01e17,#f0fd37);
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+#solution-table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white
+}
+
+#solution-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: black;
+  }
+
+  #solution-table tr:hover {background-color: #ddd;}
+  
+  #solution-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.flower-type-input, .flower-quantity-input {
+    border: none;
+    border-radius: 0.3em;
+    height: 30px;
+    width: 100%;
+}
+.add-flower-button {
+    background-color: rgba(51, 51, 51,0.6);
+    color: white
+}
+.add-flower-button:hover,
+.add-flower-button:focus {
+    background-color: #333 ;
+}
+form {
+    padding: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40vw;
+    min-width: 400px;
+    
+}
+
+.flowers-list {
+    background-color: rgba(52,73,94,0.2);
+    overflow-x: visible;
+    overflow-y: auto;
+    max-height: 40vh;
+    padding: 1em;
+    width: 30vw;
+    min-width: 300px;
+    padding: 0.5em;
+    
+}
+
+
+button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+
+.btn {
+	font-size: 2rem;
+    color: #ecf0f1;
+    background-color: rgba(51, 51, 51,0.5);;
+    padding: .5rem;
+    margin: .5rem;
+	border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 0.1em;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: rgba(51, 51, 51,0.9);;
+    color: white;
+}
+
+.trash-btn {
+    
+    font-size: 1rem;
+    background-color: rgba(26, 26, 26,0.5);
+    font-size: 1em;
+    height: 1.5em;
+    width: 1.5em;
+    text-align: center;
+    
+}
