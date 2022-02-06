@@ -219,7 +219,7 @@ function createSolution() {
 
     //kimaradók
     const kimaradok = document.getElementById('kimaradok');    
-     if (flowers.lenght == 0) {
+     if (viragszam == 0) {
             kimaradok.innerText = "";
      } else {
          kimaradok.innerText 
