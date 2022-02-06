@@ -124,7 +124,8 @@ function calcId(id, vdr) {
 }
 
 //elrendezés-táblázat elkészítésee
-function createSolution() {
+function createSolution() { 
+    
       flowers.sort(function(a,b){return a.kotegdb - b.kotegdb});
 
       //kötegek száma
@@ -217,7 +218,11 @@ function createSolution() {
     }
 
     //kimaradók
-    const kimaradok = document.getElementById('kimaradok');
-    kimaradok.innerText 
+    const kimaradok = document.getElementById('kimaradok');    
+     if (flowers.lenght == 0) {
+            kimaradok.innerText = "";
+     } else {
+         kimaradok.innerText 
         = "kimarad " + (parseInt(kotegszam)-9*parseInt(vodorszam)).toString() + " db " + flowers[viragszam-1].type;
+     }
 }
