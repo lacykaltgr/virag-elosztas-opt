@@ -19,6 +19,7 @@ const flowerQuantityInput = document.querySelector(".flower-quantity-input");
 const flowerButton = document.querySelector(".add-flower-button");
 const flowerList = document.querySelector(".flowers-list");
 const calculateButton = document.getElementById("calculate");
+const checkbox = document.querySelector('input[type="checkbox"]');
 
 
 //korábbi virágok betöltése
@@ -37,6 +38,14 @@ document.addEventListener('DOMContentLoaded', (event) =>{
         flowers[virag].id = id;
         id++;
     }
+    
+     checkbox.addEventListener('change', function () {
+        if (checkbox.checked) {
+            Vodor.szalszam = 10;
+        } else {
+          Vodor.szalszam = 7;
+        }
+      });
 });
 
 //virág hozzáadásának kezelése
