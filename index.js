@@ -223,6 +223,7 @@ function createSolution() {
                 calcId(flowers[cella].id, megoldas[sor]);    
       }
         row.insertCell().innerText = megoldas[sor].darabszam + " darab";
+        row.insertCell().innerText = megoldas[sor].darabszam*Vodor.szalszam + ' szál';
 
     }
 
